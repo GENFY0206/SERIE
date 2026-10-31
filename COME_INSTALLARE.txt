@@ -1,0 +1,23 @@
+SERIE - installazione su iPhone (gratis, senza Mac)
+
+Per funzionare offline l'app deve stare su un indirizzo https. GitHub Pages lo offre gratis.
+L'indirizzo serve solo a scaricare l'app: i dati restano sull'iPhone.
+
+1. Crea un account su github.com
+2. Nuovo repository, nome "serie", visibilita Public
+3. "uploading an existing file": trascina questi 5 file, poi Commit
+      index.html  sw.js  manifest.webmanifest  icon-180.png  icon-512.png
+4. Settings > Pages > Branch: main, cartella / (root) > Save
+5. Dopo un paio di minuti l'app e su https://TUONOME.github.io/serie/
+6. Sull'iPhone apri quel link con Safari
+7. Condividi > Aggiungi alla schermata Home > Aggiungi
+8. Da questo momento apri sempre l'icona Serie, non Safari:
+   i dati dell'icona e quelli di Safari sono separati
+
+AGGIORNARE L'APP
+Ricarica index.html su GitHub e in sw.js cambia VER (serie-1 > serie-2).
+
+BACKUP
+Storico > Salva file .md > Salva su File (meglio iCloud Drive).
+Per recuperare i dati: Storico > Carica file .md.
+Fallo ogni tanto: se elimini l'icona dalla Home, i dati si cancellano.
